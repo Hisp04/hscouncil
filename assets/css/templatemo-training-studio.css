@@ -603,7 +603,7 @@ banner
 }
 
 #bg-image{
-  display: none;
+  /*display: none;*/
 }
 
 #bg-video {
@@ -624,7 +624,7 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0;
     width: 100%;
 }
 
@@ -1014,7 +1014,8 @@ contact
 
 #contact-us .contact-form {
   padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
+  width: 100%;
+  background-image: url(../images/school-image.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
